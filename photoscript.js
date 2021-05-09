@@ -1,6 +1,7 @@
 const slider = document.querySelector(".slider")
 const logo = document.querySelector(".logo");
 const hamburger = document.querySelector(".hamburger");
+const artDescription = document.querySelector(".artDescription");
 const buttons = document.querySelector(".button")
 const container = document.querySelector(".container")
 
@@ -69,6 +70,14 @@ t2.fromTo(
     {opacity: 1, x: 0},
     "-=0.5"
 )
+.fromTo(
+    artDescription,
+    0.5,
+    {opacity: 0, x: 30},
+    {opacity: 1, x: 0},
+    "-=0.5"
+)
+
 
 
 

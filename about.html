@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asizora - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
+    <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 
-<body class="transition-fade">
+<body>
     <nav>
         <div class="logo">
-            <h3>My Portfolio</h3>
+            <h3>About Me</h3>
         </div>
 
         <ul class="nav-links">
             <li>
-                <a href="about.html">About</a>
+                <a href="index.html">Home</a>
             </li>
             <li>
                 <a href="photopage.html">Gallery</a>
@@ -37,21 +37,33 @@
         </div>
 
     </nav>
-    <section>
-        <div class="hero">
-            <img class="landscapeprogress" id="landscape" src="./images/liyuemountains.gif" alt="landscape">
-            <a class="viewbutton" href="photopage.html">View Gallery</a>
-            <a class="finalbutton" onclick="changeImage(this)">Final</a>
+    <div class="section">
+        <div class="aboutSection">
+            <article>
+                <img class="profileImage" src="./images/jennyprofile.jpg" alt="Jenny">
+                <h5>Jenny Wang</h5>
+                <div class="socialMediaLink">
+                    <a href="https://github.com/Jenniferweb"><img class="socialMediaLogo" src="./images/github logo.png" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/j942wang/"><img class="socialMediaLogo" src="./images/linkedin logo.jpg" alt="linkedin"></a>
+                    <a href="mailto:j942wang@uwaterloo.ca"><img class="socialMediaLogo" src="./images/email logo.jpg" alt="email"></a>
+                </div>
+
+            </article>
         </div>
-    </section>
-    <div class="slider"></div>
+        <div class="resume">
+            <img class="resume" src="./images/Jenny Resume Picture.jpg" alt="Resume">
+        </div>
+    </div>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
         integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg=="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
         integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw=="
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="about.js"></script>
+
 </body>
 
 </html>
